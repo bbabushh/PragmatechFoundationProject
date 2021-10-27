@@ -1,4 +1,33 @@
-.info-contact{
+.container{
+    width: 1420px;
+    height: 100px;
+    margin: 0px auto;
     display: flex;
-    text-align: center;
+    justify-content: space-between;
+    background-color: #f3f4f7;
+
+}
+.info{
+    
+
+}
+.info-contact,
+.info-social{
+    display: flex;
+    justify-content: space-between;
+
+}
+.info-social{
+    margin-left: 450px;
+}
+.info-contact-element,
+.info-social-element{
+    margin: 10px;
+}
+.info-contact-element i,
+.info-social span{
+    color: turquoise;
+}
+.info-contact-element i{
+    margin: 0px 5px;
 }
