@@ -1,0 +1,29 @@
+#services{
+    background-color: lightgray;
+    width: 1420px;
+    height: 800px;
+    margin: 0 auto;
+
+}
+.service-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 30px;
+}
+.span p{
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    margin-top: 15px;
+}
+.service-item{
+    border: 1px solid red;
+    min-height: 200px;
+    margin-top: 20px;
+    margin: 20px;
+}
