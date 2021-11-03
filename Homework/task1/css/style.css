@@ -1,3 +1,8 @@
+body{
+    font-family: "Raleway", sans-serif;
+}
+
+
 #services{
     background-color: lightgray;
     width: 1420px;
@@ -47,4 +52,14 @@
     justify-content: center;
     margin:20px;
     font-size: 20pt;
+}
+.button a {
+    text-decoration: none;
+    border: 1px solid #4586FF;
+    background-color: #4586FF ;
+    color: white;
+    border-radius: 3pt;
+    width: 150px;
+    display: flex;
+    justify-content: center;
 }
