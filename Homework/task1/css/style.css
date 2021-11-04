@@ -1,14 +1,16 @@
 body{
     font-family: "Raleway", sans-serif;
+    
 }
 
 
 #services{
     background-color: lightgray;
-    width: 1420px;
+    width: 1510px;
     height: 1200px;
-    margin: 0 auto;
-
+    margin-right: auto;
+    margin-left: auto;
+  
 }
 .service-heading{
     display: flex;
@@ -19,21 +21,25 @@ body{
     font-size: 30px;
 }
 .span p{
-    width: 350px;
+    width: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.25rem;
     margin-top: 15px;
+    font-family: "Raleway", sans-serif;
 }
 .service-item{
-    border: 1px solid gray;
+    border: 1px solid white;
+    border-radius: 4pt;
     min-height: 200px;
     margin-top: 20px;
     margin: 20px;
     height: 450px;
     width: 300px;
     background-color: white;
+    margin-left: 100px;
+    
 }
 .icon i{
     display: flex;
@@ -47,6 +53,7 @@ body{
     justify-content: center;
     margin-top: 15px;
     font-style: normal;
+    font-size: 20pt;
 }
 .service-item p{
     display: flex;
