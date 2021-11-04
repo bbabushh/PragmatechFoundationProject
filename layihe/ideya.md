@@ -1,1 +1,0 @@
-"telefon magazasinin website-ni hazirlamaq"
