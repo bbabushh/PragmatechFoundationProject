@@ -2,4 +2,46 @@
     width: 1400px;
     height: 800px;
     border: 1px solid red;
+    margin: 0px auto;
+    background-color: black;
+    
+    
+}
+
+.title-section{
+    /* text-align: center; */
+   
+}
+.title-section h1{
+    position: absolute;   
+    font-size: 56px;
+    font-weight: 900!important;
+    text-transform: uppercase;
+    margin: 0;
+    color: white;
+
+
+}
+.title-section span{
+    
+}
+.title-bg{
+    font-size: 110px;
+    left: 0;
+    letter-spacing: 10px;
+    line-height: .7;
+    top: 50%;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: lightgrey;
+    
+    
+}
+.col-12{
+    color: white;
+    margin-top: 20px;
+
+}
+.col-12 p{
+    margin-top: 20px;
 }
