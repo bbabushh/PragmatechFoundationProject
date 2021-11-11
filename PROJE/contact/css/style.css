@@ -1,9 +1,13 @@
+body{
+    background-color:  #111;
+}
 .container{
     width: 1400px;
     height: 800px;
-    border: 1px solid red;
+
     margin: 0px auto;
-    background-color: black;
+
+    
     
     
 }
@@ -19,6 +23,10 @@
     text-transform: uppercase;
     margin: 0;
     color: white;
+    top: 10px;
+    left: 150px;
+   
+    
 
 
 }
@@ -33,7 +41,7 @@
     top: 50%;
     text-transform: uppercase;
     font-weight: 800;
-    color: lightgrey;
+    color: hsla(0,0%,100%,.07);
     
     
 }
@@ -44,4 +52,19 @@
 }
 .col-12 p{
     margin-top: 20px;
+}
+.address i{
+    margin-top: 30px;
+    
+}
+.icon{
+    left: 0;
+    font-size: 33px;
+    color: #ffb400;
+    
+}
+.address p{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 40px;
 }
