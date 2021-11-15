@@ -1,0 +1,16 @@
+.homepage-container{
+    background-color: black;
+
+}
+.homepage-photo{
+    border: 1px solid white;
+    height: 400px;
+    width: 300px;
+
+}
+.homepage-photo-img{
+    
+}
+.homepage-info{
+    /* border: 1px solid yellow; */
+}
