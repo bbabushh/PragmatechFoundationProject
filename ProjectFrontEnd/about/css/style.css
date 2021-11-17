@@ -96,7 +96,7 @@ body{
     
 }
 .experience{
-    width: 400px;
+    width: 500px;
     height: 300px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -108,11 +108,21 @@ body{
    
 }
 .experience div{
-    border: 1px solid pink;
+    border: 1px solid gray;
     border-radius: 5px;
+    opacity: .8;
 }
 .experience div h3{
     font-size: 3em;
+    /* margin-left: 20px;
+    margin-top: 20px; */
+    
+}
+.number{
+    display: flex;
+}
+.number span{
+    font-size: 2rem;
 }
 
 
