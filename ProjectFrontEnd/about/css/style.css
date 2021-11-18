@@ -4,6 +4,7 @@ body{
     color: #fff;
     font-family: "Poppins",sans-serif;
     font-family: "Open Sans",sans-serif;
+    
 
 
 }
@@ -41,6 +42,7 @@ body{
     margin: 50px;
     border: 1px solid wheat;
     font-family: "Open Sans",sans-serif;
+    position: relative;
 }
 .info-title{
     margin-left: 100px;
@@ -48,6 +50,9 @@ body{
     font-weight: 600;
     text-transform: uppercase!important;
     padding-bottom: 22px;
+}
+.info-title h2{
+    
 }
 
 .info-content{
@@ -102,24 +107,37 @@ body{
     grid-template-columns: repeat(2,1fr);
     gap: 10px;
     margin-left: 120px;
-   padding-bottom: 50px;
-    
-    
-   
+    padding-bottom: 50px;
+    position: absolute;
+    top: 0px;
+    left: 600px;
+ 
 }
 .experience div{
     border: 1px solid gray;
     border-radius: 5px;
     opacity: .8;
+    
+    
+    
+    
+    
 }
 .experience div h3{
-    font-size: 3em;
-    /* margin-left: 20px;
-    margin-top: 20px; */
+    font-family: "Poppins",sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    
+    
+
     
 }
 .number{
     display: flex;
+    margin: 20px;
+    color: #ffc107;
+    
+    
 }
 .number span{
     font-size: 2rem;
