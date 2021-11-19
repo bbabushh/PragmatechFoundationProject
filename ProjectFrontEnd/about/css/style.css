@@ -5,8 +5,6 @@ body{
     font-family: "Poppins",sans-serif;
     font-family: "Open Sans",sans-serif;
     
-
-
 }
 .about-title h1{
     font-size: 56px;
@@ -40,7 +38,6 @@ body{
 #info{
     /* margin-top: 50px; */
     margin: 50px;
-    border: 1px solid wheat;
     font-family: "Open Sans",sans-serif;
     position: relative;
 }
@@ -51,23 +48,14 @@ body{
     text-transform: uppercase!important;
     padding-bottom: 22px;
 }
-.info-title h2{
-    
-}
-
 .info-content{
     display: flex;
     margin-top: 10px;
-    margin-left: 100px;
-    
-    
+    margin-left: 100px;   
 }
 .info-content-list{
-    display: flex;
-    
+    display: flex;    
 }
-
-
 .about-list-1 li{
     list-style: none;
     margin-bottom: 30px;
@@ -93,12 +81,10 @@ body{
 }
 .cv a{
     text-decoration: none;
-    color: white;
-    
+    color: white;    
 }
 .cv-icon{
-    margin-left: 2em;
-    
+    margin-left: 2em;   
 }
 .experience{
     width: 500px;
@@ -110,42 +96,36 @@ body{
     padding-bottom: 50px;
     position: absolute;
     top: 0px;
-    left: 600px;
- 
+    left: 600px;  
 }
 .experience div{
-    border: 1px solid gray;
+    border: 1px solid #252525;
     border-radius: 5px;
-    opacity: .8;
-    
-    
-    
-    
+    position: relative;   
     
 }
 .experience div h3{
     font-family: "Poppins",sans-serif;
     font-size: 50px;
     font-weight: 700;
-    
-    
-
-    
 }
+
 .number{
     display: flex;
     margin: 20px;
-    color: #ffc107;
-    
-    
+    color: #ffc107; 
 }
 .number span{
-    font-size: 2rem;
+    font-size: 2.2em;
+    font-weight: 500;
 }
-
-
-
-
-
+.about-experience{
+    position: absolute;
+    left: 65px;
+    top: 80px;
+    font-family: "Open Sans",sans-serif;
+    text-transform: uppercase;
+    line-height: 1.6;
+}
 
 /* Section info style end */
