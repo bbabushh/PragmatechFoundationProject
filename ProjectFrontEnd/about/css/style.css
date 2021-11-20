@@ -147,3 +147,15 @@ body{
 }
 
 /* Section info style end */
+/* Section Education start */
+.education-title{
+    text-align: center;
+    margin: 30px;
+    font-size: 26px;
+    font-weight: 600px;
+}
+
+
+
+
+/* Section education end */
