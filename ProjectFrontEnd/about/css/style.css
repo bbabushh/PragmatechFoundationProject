@@ -152,7 +152,8 @@ body{
     text-align: center;
     margin: 30px;
     font-size: 26px;
-    font-weight: 600px;
+    font-weight: 600;
+    text-transform: uppercase!important;
 }
 
 
