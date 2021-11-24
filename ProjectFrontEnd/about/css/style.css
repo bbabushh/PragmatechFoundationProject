@@ -147,6 +147,9 @@ body{
 }
 
 /* Section info style end */
+/* ection Skills start */
+
+/* Section Skills end */
 /* Section Education start */
 .education-title{
     text-align: center;
@@ -158,12 +161,22 @@ body{
 .experience-content{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-}.experience-content-item-info{
+    gap: 40px;
+}
+.experience-content-item-info{
     padding: 30px;
     padding-top: 0px;
     border-left: 1px solid lightgray;
     position: relative;
+    margin: 40px;
+}
+.experienc-content-item-info h3{
+    font-size: 1em;
+    padding-top: 0px;
+    font-family: "Poppins",sans-serif;
+    margin-bottom: 20px;
+    
+    
 }
 
 
