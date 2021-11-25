@@ -182,7 +182,14 @@ body{
     font-weight: 600;
     background-color: #252525;
     opacity: .8;
-     
+}
+.experience-content-item-info h2 span{
+    font-size: 18px;
+    font-family: "Poppins",sans-serif;
+    
+}
+.experience-content-item-info p{
+    margin-top: 20px;
 }
 
 
