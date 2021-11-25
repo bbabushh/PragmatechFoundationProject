@@ -183,15 +183,31 @@ body{
     background-color: #252525;
     opacity: .8;
 }
-.experience-content-item-info h2 span{
-    font-size: 18px;
-    font-family: "Poppins",sans-serif;
-    
-}
+
 .experience-content-item-info p{
     margin-top: 20px;
 }
+.about-experience-info{
+    display: flex;
+}
+.about-experience-info span{
+    font-family: "Poppins",sans-serif ;
+    font-weight: 500;
+    font-size: 20px;
 
+}
+.about-experience-info h2{
+    opacity: .8;
+    font-weight: 500;
+}
+.about-experience-info span ::before{
+    content: '';
+    width: 35px;
+    height: 1.3px;
+    background:#777;
+    display: block;
+
+}
 
 
 
