@@ -186,6 +186,7 @@ body{
 
 .experience-content-item-info p{
     margin-top: 20px;
+    line-height: 30px;
 }
 .about-experience-info{
     display: flex;
