@@ -1,18 +1,4 @@
-let task1=90
-let task1=70
-project=true
+let ilkEded = prompt("ilk ededi daxil edin :")
+let ikinciEded = prompt("ikinci ededi daxil edin :")
 
-
-let ortalama = (task1 + task2) / 2
-if(ortalama < 70){
-    alert("fail")
-}
-else{
-    if(ortalama>90 && project==true){
-        alert("siz qizil mezunsunuz tebrikler")
-    }
-    else{
-        alert("siz fail oldunuz")
-    }
-
-}
+alert(Number(ilkEded)+Number(ikinciEded))
