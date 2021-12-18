@@ -22,7 +22,4 @@ let z={
         return "babush arada yemeye fasile ver"
     }
     }
-
-
-}
-console.log(z.soyad);
+    console.log(z.ad);
